@@ -1,7 +1,6 @@
 import spacy
 import PyPDF2
 
-# Load small English model
 nlp = spacy.load("en_core_web_sm")
 
 # Extract text from PDF file
