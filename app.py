@@ -3,11 +3,10 @@ from resume_parser import extract_keywords, extract_text_from_pdf
 import random
 
 st.set_page_config(page_title="Career & Skills Advisor", layout="wide")
-st.title("🎯 Personalized Career and Skills Advisor")
+st.title(" Personalized Career and Skills Advisor")
 
 menu = st.sidebar.radio("Choose Feature", ["Career Mentor", "Skill Roadmap", "Mock Interview"])
 
-# Define roles with keywords for matching
 roles_keywords = {
     "Data Scientist": ["python","machine learning","statistics","data analysis","pandas","numpy","scikit-learn"],
     "Web Developer": ["javascript","html","css","react","node.js","frontend","backend"],
